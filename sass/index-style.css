@@ -1,0 +1,257 @@
+.fa-solid {
+  color: #7E7E7E;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  background-color: #f3f3f3;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  gap: 4px;
+}
+header h2 {
+  text-align: center;
+}
+header p {
+  text-align: center;
+}
+
+h1 {
+  font-family: "Shrikhand", serif;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+  background-color: white;
+  width: 100%;
+  margin: 0;
+  padding: 14px 0px 13px 0px;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1490196078);
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.loc {
+  width: 100%;
+  height: 50px;
+  background-color: #EAEAEA;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);
+}
+.loc p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #353535;
+  margin: 0px;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  text-align: center;
+}
+.intro h2 {
+  padding-top: 39px;
+  margin: 0px;
+  width: 275px;
+}
+.intro p {
+  font-family: "Roboto", sans-serif;
+  margin: 0px;
+  padding: 0px 16px;
+  font-size: 18px;
+  font-weight: 300;
+}
+.intro a {
+  text-decoration: none;
+  text-align: center;
+  align-content: center;
+  color: white;
+  background: linear-gradient(0deg, #9356DC, #FF79DA);
+  width: 218px;
+  height: 50px;
+  border-radius: 25px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.2509803922);
+  margin-bottom: 57px;
+}
+.intro a:hover {
+  background: rgba(255, 255, 255, 0.5), linear-gradient(0deg, #9356DC, #FF79DA);
+  transition: background-color 0s ease-in-out;
+}
+
+.fonctionnement {
+  background-color: white;
+}
+.fonctionnement h2 {
+  padding: 48px 80px 26px 20px;
+  margin: 0px;
+}
+
+.steps {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 0px 20px 48px 20px;
+}
+.steps .step-card {
+  width: 335px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+  margin: 0px;
+}
+.steps .step-card .step-number {
+  position: relative;
+  left: 0px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+  align-content: center;
+  background-color: #9356DC;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin: 0px;
+  z-index: 2;
+}
+.steps .step-card .step-card-content {
+  width: 100%;
+  position: relative;
+  left: -24px;
+  background-color: #F6F6F6;
+  border-radius: 20px;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1490196078);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 27px;
+  z-index: 1;
+}
+.steps .step-card .step-card-content i {
+  position: relative;
+  left: 24px;
+}
+.steps .step-card .step-card-content p {
+  position: relative;
+  left: 24px;
+  width: 211px;
+  padding-right: 38px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.restaurants {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 0px 20px 48px 20px;
+}
+.restaurants h2 {
+  padding: 54px 80px 10px 20px;
+  margin: 0px;
+}
+.restaurants .restaurant-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.restaurants .restaurant-cards .restaurant-card {
+  width: 335px;
+  height: 251px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.restaurants .restaurant-cards .restaurant-card img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  height: 70%;
+}
+.restaurants .restaurant-cards .restaurant-card .restaurant-card-content {
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+.restaurants .restaurant-cards .restaurant-card .restaurant-card-content img {
+  width: 22px;
+  height: 21px;
+  border-radius: 0px;
+}
+.restaurants .restaurant-cards .restaurant-card .restaurant-card-content .restaurant-card-txt h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0px;
+}
+.restaurants .restaurant-cards .restaurant-card .restaurant-card-content .restaurant-card-txt p {
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  margin: 0px;
+}
+
+footer {
+  background-color: #353535;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+  padding-top: 25px;
+  padding-left: 22px;
+  padding-bottom: 22px;
+}
+footer h2 {
+  font-family: "Shrikhand", cursive;
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  margin: 0px;
+}
+footer a {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  gap: 10px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+footer a p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  margin: 0px;
+}
+
+/*# sourceMappingURL=index-style.css.map */
