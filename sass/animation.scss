@@ -1,0 +1,26 @@
+@keyframes item__appear {
+    0% {
+        transform: scaleX(0);
+    }
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+.heart__noanim {
+  opacity: 1;
+  transition: opacity 200ms;
+
+  &:hover {
+    opacity: 0;
+  }
+}
+
+.heart__anim {
+  opacity: 0;
+  transition: opacity 200ms;
+
+  &:hover {
+    opacity: 1;
+  }
+}

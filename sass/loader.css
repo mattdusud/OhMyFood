@@ -1,0 +1,46 @@
+@charset "UTF-8";
+.loader {
+  background: white;
+  width: 99.9vw;
+  height: 100vh;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  z-index: 10;
+  animation: loader-anim 0.05s 3s linear forwards;
+}
+.loader .square__container {
+  width: 200px;
+  height: 120px;
+  position: relative;
+  /* Le carré du loader*/
+}
+.loader .square__container .square {
+  width: 24px;
+  height: 24px;
+  background: #99E2D0;
+  offset-path: path("M 100 60 C 150 0, 200 0, 200 60 C 200 120, 150 120, 100 60 C 50 0, 0 0, 0 60 C 0 120, 50 120, 100 60");
+  animation: infini 1s cubic-bezier(0.8, 0.33, 0.34, 0.69) 4;
+}
+
+/* Animation du loader */
+@keyframes loader-anim {
+  to {
+    opacity: 0;
+    z-index: -1;
+  }
+}
+@keyframes infini {
+  from {
+    offset-distance: 0%;
+  }
+  to {
+    offset-distance: 100%;
+  }
+}
+
+/*# sourceMappingURL=loader.css.map */
