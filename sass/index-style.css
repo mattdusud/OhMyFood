@@ -7,6 +7,7 @@
     transform: scaleX(1);
   }
 }
+/* Animation pour remplir le coeur de favori */
 .heart__noanim {
   opacity: 1;
   transition: opacity 200ms;
@@ -23,6 +24,12 @@
   opacity: 1;
 }
 
+/* Animation qui réactive le scroll */
+@keyframes unlockScroll {
+  to {
+    overflow: auto;
+  }
+}
 .loader {
   background: white;
   width: 99.9vw;
@@ -267,6 +274,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
+  animation: unlockScroll 0s 3s forwards;
 }
 
 .contenu {

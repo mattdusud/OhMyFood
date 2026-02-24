@@ -17,6 +17,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  overflow: hidden;
+  animation: unlockScroll 0s 3s forwards;
 }
 
 //contenu de la page pour séparer du loader
