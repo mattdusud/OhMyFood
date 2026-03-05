@@ -267,7 +267,7 @@
 
 body {
   padding: 0px;
-  margin: 0px;
+  margin: auto;
   width: 100%;
   background-color: white;
   display: flex;
@@ -276,6 +276,8 @@ body {
   align-items: center;
   overflow: hidden;
   animation: unlockScroll 0s 3s forwards;
+  max-width: 1440px;
+  position: relative;
 }
 
 .contenu {
